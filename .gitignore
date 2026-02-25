@@ -1,0 +1,13 @@
+__pycache__/
+
+.env 
+
+notas.txt
+
+python-version
+
+logs.log
+
+.vscode/
+
+datasets/
