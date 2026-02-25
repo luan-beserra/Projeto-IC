@@ -9,7 +9,7 @@ Este projeto foi desenvolvido ao longo do programa de Iniciação Científica na
 **Este repositório é mantido como parte do meu portfólio pessoal.**
 
 ## Recursos Utilizados
-**Python, [PyCaret](https://github.com/pycaret/pycaret), [pyenv](https://github.com/pyenv/pyenv)**
+**Python,  [pandas](https://pandas.pydata.org/), [PyCaret](https://github.com/pycaret/pycaret), [pyenv](https://github.com/pyenv/pyenv)**
 
 ## Desenvolvimento
 De acordo com a problemática levantada, foi desenvolvido um algoritmo em **Python** com o objetivo de extrair dados de TLE entre satélites e detritos espaciais que estão em risco de colisão, segundo o site da [Space-Track](https://www.space-track.org/). Estes dados são filtrados, separados em um dataset e então processados de forma automatizada por vários modelos de aprendizagem de máquina de forma simultânea, utilizando conceitos de **autoML** com o auxílio da biblioteca [PyCaret](https://github.com/pycaret/pycaret). **Cada modelo faz uma previsão que calcula a probabilidade de colisão entre os dois objetos no período de 7 dias**, o algoritmo identifica qual o modelo mais preciso e mais eficiente, e permite que ele seja exportado para uso posterior. Também é gerado uma tabela que permite comparar os desempenhos de cada algotimo e comparar os resultados.
